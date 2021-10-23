@@ -155,9 +155,35 @@ img {
     color: var(--primery-text-color);
 }
 
+.contacts-icon-envelope {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--primery-text-color);
+}
+
+.contacts-link:hover .contacts-icon-envelope,
+.contacts-link:focus .contacts-icon-envelope {
+    fill: var(--links-hover-color);
+}
+
+.contacts-icon-smartphone {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: var(--primery-text-color);
+}
+
+.contacts-link:hover .contacts-icon-smartphone,
+.contacts-link:focus .contacts-icon-smartphone {
+    fill: var(--links-hover-color);
+}
+
 .contacts-link {
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
+    align-items: center;
 }
 
 .contacts-item:not(:last-child) {
@@ -168,8 +194,15 @@ img {
    ========================================================================== */
 
 .order-service {
+    width: 1600px;
+    margin: 0 auto;
     padding-top: 197px;
     padding-bottom: 200px;
+    background-image: linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+        ),
+        url(../img/order-service-bg.jpg);
     background-color: var(--secondary-background-color);
 }
 
@@ -305,6 +338,7 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+    background-color: var(--first-background-color);
 }
 
 .our-team-secondary-title {
