@@ -444,7 +444,7 @@ img {
 }
 
 .clients-item {
-    flex-basis: calc(100% / 6- 30px);
+    flex-basis: calc(100% / 6 - 30px);
     width: 170px;
     height: 92px;
     margin-right: 30px;
